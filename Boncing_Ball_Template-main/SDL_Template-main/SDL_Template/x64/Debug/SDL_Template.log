@@ -1,0 +1,8 @@
+﻿  Bouncing_Ball.cpp
+test.obj : error LNK2005: "void __cdecl closeSDL(void)" (?closeSDL@@YAXXZ) already defined in Bouncing_Ball.obj
+test.obj : error LNK2005: "bool __cdecl initSDL(void)" (?initSDL@@YA_NXZ) already defined in Bouncing_Ball.obj
+test.obj : error LNK2005: "struct SDL_Texture * __cdecl loadTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadTexture@@YAPEAUSDL_Texture@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) already defined in Bouncing_Ball.obj
+test.obj : error LNK2005: SDL_main already defined in Bouncing_Ball.obj
+test.obj : error LNK2005: "struct SDL_Window * gWindow" (?gWindow@@3PEAUSDL_Window@@EA) already defined in Bouncing_Ball.obj
+test.obj : error LNK2005: "struct SDL_Renderer * gRenderer" (?gRenderer@@3PEAUSDL_Renderer@@EA) already defined in Bouncing_Ball.obj
+C:\Users\kimbe\Downloads\SDL_Template-main\SDL_Template-main\x64\Debug\SDL_Template.exe : fatal error LNK1169: one or more multiply defined symbols found
